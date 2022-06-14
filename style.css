@@ -24,7 +24,7 @@ body, html {
 }
 
 p {
-     font-size: 1em;
+     font-size: 1.4em;
      text-align: center;
      font-family: var(--fonte01);
      padding: 30px;
