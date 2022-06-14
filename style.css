@@ -1,6 +1,6 @@
 @charset "utf8";
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 :root {
@@ -10,7 +10,7 @@
      --cor04: #8FD99A;
      --cor05: #F2E8D5;
 
-     --fonte01: Ink Free;
+     --fonte01: 'Kanit', sans-serif;;
      --fonte02: 'Shadows Into Light', cursive;
 }
 
@@ -24,11 +24,12 @@ body, html {
 }
 
 p {
-     font-size: 1.5em;
+     font-size: 1.4em;
      text-align: center;
      font-family: var(--fonte01);
-     padding: 10px;
+     padding: 5px;
      line-height: 2em;
+     font-weight: 200;
 }
 
 h1 {
@@ -39,7 +40,7 @@ h1 {
      color: var(--cor01);
      text-shadow: 0px -1px 1px #000000;
      text-decoration: underline;
-     font-size: 3em;
+     font-size: 2.1em;
 
 }
 #poema > section {
